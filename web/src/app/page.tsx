@@ -11,7 +11,7 @@ import { Play, RotateCcw, ChevronDown, Check, X, AlertCircle } from 'lucide-reac
 import { Allotment } from "allotment";
 import "allotment/dist/style.css";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "http://127.0.0.1:8000/api";
 
 type Task = {
   id: string;
